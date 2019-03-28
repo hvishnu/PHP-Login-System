@@ -47,8 +47,12 @@
                     <div class="uk-form-controls" >
                         <input class="uk-input"  id="form-stacked-text" required="required"  type="password" placeholder="Enter your Password"  >
                     </div>
+
                 </div>
                 <button class="uk-button uk-button-default">Login</button>
+                <div class="uk-margin">
+                <button class="uk-button   ">Forget Password</button>
+                </div>
             </div>
         </form>
 </body>
