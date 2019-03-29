@@ -1,4 +1,6 @@
 <?php
+define("_CONFIG_",true);
+require_once "config.php";
 ?>
 
 <!DOCTYPE HTML>
