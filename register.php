@@ -51,7 +51,7 @@ include_once "scripts.php";
             </div>
 
         </div>
-        <button class="uk-button uk-button-default">Login</button>
+        <button class="uk-button uk-button-default">Register</button>
         <div class="uk-margin">
             <button class="uk-button   ">Forget Password</button>
         </div>

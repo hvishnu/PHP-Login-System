@@ -27,23 +27,7 @@ include_once "scripts.php";
             </div>
         </div>
 
-        <div class="uk-margin">
-            <label class="uk-form-label" for="form-stacked-select">favourite subject</label>
-            <div class="uk-form-controls">
-                <select class="uk-select" id="form-stacked-select">
-                    <option>Math</option>
-                    <option>Science</option>
-                </select>
-            </div>
-        </div>
 
-        <div class="uk-margin">
-            <div class="uk-form-label">Gender</div>
-            <div class="uk-form-controls">
-                <label><input class="uk-radio" type="radio" name="radio1" checked> Male</label><br>
-                <label><input class="uk-radio" type="radio" name="radio1"> Female</label>
-            </div>
-        </div>
         <div class="uk-margin">
             <label class="uk-form-label" for="form-stacked-password">Password</label>
             <div class="uk-form-controls" >
@@ -51,9 +35,13 @@ include_once "scripts.php";
             </div>
 
         </div>
-        <button class="uk-button uk-button-default">Login</button>
-        <div class="uk-margin">
+        <button class="uk-button uk-button-default" style="display: inline-block">Login</button>
+
+        <div class="uk-margin" style="display: inline-block">
             <button class="uk-button   ">Forget Password</button>
+        </div>
+        <div>
+            <label><input class="uk-checkbox" type="checkbox" > Remember me</label>
         </div>
 </div>
 </form>
