@@ -1,7 +1,6 @@
 <?php
 define("_CONFIG_",true);
 require_once "config.php";
-echo "good";
 ?>
 
 <!DOCTYPE HTML>
@@ -14,7 +13,9 @@ echo "good";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
 </head>
 <body>
-
+<div style="text-align: center">
+ <a href="login.php">login </a> or  <a href="register.php">register</a>
+</div>
    <?php
    include_once "scripts.php";
    ?>
