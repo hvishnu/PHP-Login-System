@@ -9,12 +9,13 @@ class db{
     private function __construct()
     {
         try {
-            self::$con = pdo('mysql:charset=utf8mb4;host:localhost;port:3306;dbname=login_system', 'root', 'root');
+            self::$con = new pdo('mysql:charset=utf8mb4;host:localhost;port:3306;dbname=login_system', 'root', 'jzXjMU5Yr3pVJyM3');
             self::$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
             self::$con->setAttribute( PDO::ATTR_PERSISTENT, false );
         }
         catch (PDOException $e){
-            echo "Could not connect to database.";
+
+            echo "could not connect to database $e.";
             exit;
 
         }

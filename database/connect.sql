@@ -44,7 +44,7 @@ TRUNCATE TABLE `login`;
 
 ALTER TABLE `login`
   ADD PRIMARY KEY (`user_id`),
-  ADD UNIQUE KEY `email` (`mail`);
+  ADD UNIQUE KEY  (`mail`);
 
 
 ALTER TABLE `login`
