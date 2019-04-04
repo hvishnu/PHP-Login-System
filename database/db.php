@@ -9,7 +9,7 @@ class db{
     private function __construct()
     {
         try {
-            self::$con = new pdo('mysql:charset=utf8mb4;host:localhost;port:3306;dbname=login_system', 'root', 'jzXjMU5Yr3pVJyM3');
+            self::$con = new pdo('mysql:charset=utf8mb4;host:localhost;port:3306;dbname=login_system', 'hvishnu', 'Rahul@123');
             self::$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
             self::$con->setAttribute( PDO::ATTR_PERSISTENT, false );
         }
